@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balanceof",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "premiotokens",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pontos",
+						"type": "uint256"
+					}
+				],
+				"name": "salvapontuacao",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testeGit...Dicionarios.sol": "mappings"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testeGit...Dicionarios.sol": {
+			"keccak256": "0x11f49b051de4273c293b60fc1d8c166c6218471b2cf0f3260c99e716a6bfa3bf",
+			"urls": [
+				"bzz-raw://c2d2b131cea1394c8dcf3486b53697bad490e6d13b356533ad9147eb2c44aac0",
+				"dweb:/ipfs/QmSb6N98Ckxn46U4Nn5XGdX2ZLUp1uDk8nxfR47tESPy7w"
+			]
+		}
+	},
+	"version": 1
+}
