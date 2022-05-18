@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "calcula",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUser",
+				"outputs": [
+					{
+						"internalType": "enum Categorias.ESTADO",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasSolidity/Enums.sol": "Categorias"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasSolidity/Enums.sol": {
+			"keccak256": "0xfde7f89de1b71decc38dc24fda3a61ec7a942cc650b6cebe15ab2f1469e513f7",
+			"urls": [
+				"bzz-raw://9e5a30abcdd7014af6ef0065d2e1777e36d8783f9d58cfd24518459328e86a75",
+				"dweb:/ipfs/QmXdZdEgVkToLy5Ur7L38J8xmK6U1pua3EyVLRQFAyqCCf"
+			]
+		}
+	},
+	"version": 1
+}

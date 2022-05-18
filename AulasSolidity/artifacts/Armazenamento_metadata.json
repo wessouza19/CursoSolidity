@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_texto",
+						"type": "string"
+					}
+				],
+				"name": "guardaNumero",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lerNumero",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasSolidity/Armazenamento.sol": "Armazenamento"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasSolidity/Armazenamento.sol": {
+			"keccak256": "0x529ad8a82415f5f27d472dce957236deb45a477ea10cebca0e7c3ff4e338c5c0",
+			"urls": [
+				"bzz-raw://866b00f9d4f4e6d80a91977c7dd1e6bdbbde836fcf1a096394e1828894324ecf",
+				"dweb:/ipfs/QmV4KqALfWnaqZNtdExtStTxExtJDnrkBeGw4ZsYY2Nrkq"
+			]
+		}
+	},
+	"version": 1
+}

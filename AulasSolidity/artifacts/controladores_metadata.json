@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_endereco",
+						"type": "address"
+					}
+				],
+				"name": "salvaEnderecos",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_endereco",
+						"type": "address"
+					}
+				],
+				"name": "verificaEndereco",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasSolidity/Controladores.sol": "controladores"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasSolidity/Controladores.sol": {
+			"keccak256": "0xbc498369fc315c48b47e30eee75ce012952d603f95c013acaa33995038f63057",
+			"urls": [
+				"bzz-raw://14fc7fb922fca65ea3f4fb27a163303ec3c552baac1f26df902b81e17d04cc2a",
+				"dweb:/ipfs/QmdGm5PCtDMoimCjk89ihN56ciQTFezuUUpJCZW73enkmM"
+			]
+		}
+	},
+	"version": 1
+}
