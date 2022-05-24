@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasSolidity/Modificadores.sol": "modificadores"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasSolidity/Modificadores.sol": {
+			"keccak256": "0x3a84dabbb2f4b2ad22d0c403dc137b3aeef967a0f2fbd4252152bd15ef1b2a78",
+			"urls": [
+				"bzz-raw://d6182a046122b45a666c3e5d83fdd923a7a4d89658651efec46df4030e5d9a7a",
+				"dweb:/ipfs/QmZWTAMsqaMNMQBSK2EsXsiHgYNPyPkaEf5axxs2PFsUjQ"
+			]
+		}
+	},
+	"version": 1
+}

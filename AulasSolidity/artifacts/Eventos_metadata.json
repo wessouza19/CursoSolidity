@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_deQuem",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_paraOnde",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_quantidade",
+						"type": "uint256"
+					}
+				],
+				"name": "Transferencia",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_paraQuem",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantidade",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasSolidity/Eventos.sol": "Eventos"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasSolidity/Eventos.sol": {
+			"keccak256": "0x15a11e0c2083f97415e492d5ce31d196208c161feed2271b189b125e7b0bd71d",
+			"urls": [
+				"bzz-raw://8782d2c99b0c592fccbcaaa0826494bd4897566e354c12f806ca186569ad56bd",
+				"dweb:/ipfs/QmTmyjEXVC4aCtpEznohQibdQB5BrjZUEEuMGodo1T2kS6"
+			]
+		}
+	},
+	"version": 1
+}
