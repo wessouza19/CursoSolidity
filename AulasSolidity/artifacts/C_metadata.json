@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "retorna10",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contrato",
+						"type": "address"
+					}
+				],
+				"name": "chamaOutro",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasSolidity/InteracaoContratos.sol": "B"
+			"AulasSolidity/InteracaoContratos.sol": "C"
 		},
 		"evmVersion": "london",
 		"libraries": {},

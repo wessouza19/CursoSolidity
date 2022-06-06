@@ -9,22 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "contrato",
+						"name": "account",
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_contrato",
-						"type": "address"
-					}
-				],
-				"name": "getSaldo",
+				"name": "balanceOf",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -49,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasSolidity/Interacao2.sol": "A"
+			"AulasSolidity/IERC20.sol": "IERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -68,13 +57,6 @@
 			"urls": [
 				"bzz-raw://dff52d57a1784fc0b4f44c8655770cb449390a78219ca52f9ff2703b4f508963",
 				"dweb:/ipfs/QmXNd6bMrRfszmXMvx6t8QvvHrq3xSTzigd6Fjfyc76y46"
-			]
-		},
-		"AulasSolidity/Interacao2.sol": {
-			"keccak256": "0xefdd65ccc2ccd4df28c05360ebd252edda3f385f4472c2589e8c631c29137e1e",
-			"urls": [
-				"bzz-raw://2405ec9cd014683045f831ec89289aa22dc8866cd84d5309f33197b75b7cb816",
-				"dweb:/ipfs/QmaXoDUE6fXTUfVaAZUzKfEjazKBaJxtWc9GDM84t72jnr"
 			]
 		}
 	},
